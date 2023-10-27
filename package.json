@@ -1,0 +1,31 @@
+{
+  "name": "@smonn/postgres-migrate",
+  "version": "0.0.0",
+  "description": "PostgreSQL forward-only migration CLI tool using Postgres.js",
+  "type": "module",
+  "bin": {
+    "spm": "./bin/index.js"
+  },
+  "exports": "./lib/index.js",
+  "scripts": {},
+  "keywords": [
+    "postgres",
+    "sql",
+    "migration",
+    "cli",
+    "migrate",
+    "migrations"
+  ],
+  "author": "Simon Ingeson",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.2.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "postgres": ">=3.4.1 <4.0.0",
+    "yargs": "^17.7.2"
+  }
+}
